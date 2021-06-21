@@ -113,6 +113,6 @@ class Reynas {
   void _saveSolution() {
     _solutions++; //Contador de soluciones
     _memory.add(Uint8List.fromList(_board)); //Se guarda en memoria ram
-//    print(_board);
+    print(_board);
   }
 }
