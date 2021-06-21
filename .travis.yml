@@ -1,6 +1,6 @@
 language: dart
 dart:
-  - "2.2.2"
+  - stable
 script:
   - pub get --packages-dir
   - pub run test
