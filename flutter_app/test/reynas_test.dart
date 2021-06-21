@@ -6,7 +6,7 @@ Future main() async{
   //Lista de los primeros 8 casos
   List<double> solutions = [92,352,724,2680,14200,73712,365596,2279184,14772512];
   int inicialCondition = 8; //El valor inicial de N deberá ser 8
-  int majorTest = 13; //Fijamos un valor entre 8 y 15
+  int majorTest = 8; //Fijamos un valor entre 8 y 15
 
   //When
   for (int boardSize = inicialCondition; boardSize <= majorTest; boardSize++)
